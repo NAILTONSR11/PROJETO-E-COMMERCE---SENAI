@@ -1,9 +1,13 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid; */
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 /* faixa superior do header */
 .header-up{
     display: grid;
@@ -14,10 +18,15 @@
 }
 /* fim faixa superior do header */
 
+/* estilizando o header */
 header{
+    border-bottom: 2px solid #948f8f9d;
+}
+.header{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    border: 2px solid;
+    /* border: 2px solid; */
+    padding: 10px;
 }
 
 .header-logo{
@@ -34,3 +43,19 @@ align-content: center;
     display: flex;
     gap: 30px;
 }
+
+.header-lista nav ul{
+    list-style: none;
+}
+
+.header-right{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-right input{
+    padding: 5px;
+}
+/* fim da estilização do header */

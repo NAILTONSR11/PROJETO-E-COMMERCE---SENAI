@@ -1,0 +1,19 @@
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0 auto;
+}
+
+.hero-container > .hero-left{
+    border-right: 1px solid #948f8f9d;
+    margin-left: 20px;
+}
+
+.hero-container > .hero-left nav ul li{
+    list-style: none;
+}
+
+.hero-container > .hero-right{
+    justify-items: center;
+    border-left: 1px solid #948f8f9d;
+}

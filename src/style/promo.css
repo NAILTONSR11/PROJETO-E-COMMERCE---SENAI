@@ -1,0 +1,44 @@
+.promos{
+    border: 2px solid rgb(149, 149, 161);
+}
+
+.promos > .promo-text{
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    justify-content: space-between;
+}
+
+.promos > .promo-produtos{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.img-produto{
+    background-image: url('/src/assets/images/controll.png');
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    align-items: end;
+}
+
+.img-produto span{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* opacity: 0; */
+}
+
+.promos button{
+    padding: 15px;
+    background-color:brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
