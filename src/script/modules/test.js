@@ -1,8 +1,4 @@
-import temporizador from "./modules/temporizador.js";
-
-temporizador();
-
-/* const months = [
+const months = [
     'January',
     'February',
     'March',
@@ -90,5 +86,3 @@ temporizador();
   let countdown = setInterval(getRemaindingTime, 1000);
   //set initial values
   getRemaindingTime();
-
- */
