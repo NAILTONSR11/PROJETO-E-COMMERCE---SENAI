@@ -1,5 +1,7 @@
 import temporizador from "./modules/temporizador.js";
+import slideUm from './produtos.js';
 
+slideUm();
 temporizador();
 
 /* const months = [

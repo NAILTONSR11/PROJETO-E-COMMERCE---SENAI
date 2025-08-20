@@ -1,0 +1,47 @@
+.categorias{
+    border-bottom: 2px solid rgb(149, 149, 161);;
+    padding-bottom: 20px;
+}
+
+.categorias>h2 {
+    padding-top: 10px;
+    margin: 20px 0;
+}
+
+.gridCat {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+.btnav{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+.gridCat button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.smartWat {
+    width: 30%;
+    height: auto;
+    
+}
+
+.gridCat img {
+    width: 50%;
+    height: auto;
+} 
+
+.gridCat button:hover {
+   background-color: red;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   color: white;
+   font-weight: bold;
+}
