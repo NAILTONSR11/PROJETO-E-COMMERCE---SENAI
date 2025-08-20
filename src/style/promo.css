@@ -3,7 +3,6 @@
 }
 
 .promos > .promo-text{
-    border: 2px solid rgb(112, 107, 107);
     display: flex;
     justify-content: space-between;
 }
