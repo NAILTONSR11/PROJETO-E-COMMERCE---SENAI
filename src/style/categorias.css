@@ -8,6 +8,8 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
+    align-items: center;
+}
 
 .gridCat button {
     background: none;
@@ -22,8 +24,8 @@
 .gridCat img {
     width: 100%;
     height: auto;
-    
-}
+} 
+
 .figs:hover {
     background-color: red;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
