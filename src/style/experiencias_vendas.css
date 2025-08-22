@@ -27,7 +27,7 @@
 }
    
 .text button {
-   width: 120px;
+   max-width: 150px;
    padding: 10px;
    background-color: greenyellow;
    font-weight: bold;
@@ -35,6 +35,10 @@
    cursor: pointer;
    font-family: "Poppins", sans-serif;
 
+}
+.text button:hover {
+   background-color: darkgreen;
+   color: white;
 }
 
 .figura {
@@ -82,8 +86,12 @@
         text-align: center;
     }
  .text button{
-    width: 120px;
+    max-width: 150px;
     padding: 8px;
     font-size: 14px;
  } 
+.text button:hover {
+   background-color: darkgreen;
+   color: white;
+}
 }
