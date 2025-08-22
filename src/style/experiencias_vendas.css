@@ -90,7 +90,7 @@
     padding: 8px;
     font-size: 14px;
  } 
- .text button:hover {
+.text button:hover {
    background-color: darkgreen;
    color: white;
 }
