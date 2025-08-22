@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 60px;
+    height: 300px;
+    align-items: center;
+}
+#primeiro{
+    margin-left: 60px;
+}
+#primeiro>h2{
+
+ font-family:"Poppins", sans-serif;
+ font-weight: 500;
+
+
+}
+#primeiro>span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size:16px ;
+
+}
+
+
+.email{
+    border: solid 1.5px;
+    display: flex;
+    width: 134px;
+    height: 28px;
+    border-radius: 4px;
+
+}
+.email>input{
+    background-color: black;
+    border: none;
+  
+     &.email>input:placeholder-shown{
+        font-family: "Poppins", sans-serif;
+        color:gray;
+        font-weight: 400;
+        font-size: 16px;
+        margin-right: -24px;
+
+     }
+}
+.email>img{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius:5px;
+    margin-left: -50px;
+}
+
+
+#segundo>h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size:20px;
+}
+#segundo>div>span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+#segundo>div>{
+    gap:26px;
+}
+#terceiro>h3{
+    font-family:"Poppins", sans-serif ;
+    font-weight: 500;
+    font-size: 20px;
+
+
+}
+#terceiro>span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+#quarto>h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+#quarto>span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+#quinto>h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+#quinto>span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size:12px;
+    color: gray;
+}
+#quinto>div>img{
+    border-radius: 40%;
+    padding: 8px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+
+}
