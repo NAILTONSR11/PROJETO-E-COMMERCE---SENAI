@@ -35,7 +35,7 @@
 }
 
 .figura {
-    width: 100%;
+  max-width: 30vw;
     height:auto;
     height: auto;
     display: inline-block;
@@ -60,4 +60,22 @@
    height: 80px;
    border-radius: 50px;
    padding: 30px;
+}
+@media (max-width: 1159px) {
+    .experiencias_venda {
+        grid-template-columns: 1fr;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .figura {
+        max-width: 40vw;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .text {
+        align-items: center;
+        text-align: center;
+    }
 }
