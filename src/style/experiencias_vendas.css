@@ -69,7 +69,7 @@
     }
 
     .figura {
-        max-width: 40vw;
+        max-width: 60vw;
         height: auto;
         margin: 0 auto;
     }
@@ -78,4 +78,9 @@
         align-items: center;
         text-align: center;
     }
+ .text button{
+    width: 120px;
+    padding: 8px;
+    font-size: 14px;
+ } 
 }
