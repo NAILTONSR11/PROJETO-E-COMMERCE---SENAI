@@ -1,5 +1,6 @@
 .promos{
-    border: 2px solid rgb(149, 149, 161);
+    border-left: 2px solid rgb(149, 149, 161);
+    border-right: 2px solid rgb(149, 149, 161);
 }
 
 .promos > .promo-text{
@@ -33,7 +34,13 @@
     background-color: black;
     color: white;
     width: 100%;
-    opacity: 0;
+    display: none;
+}
+
+.img-produto:hover{
+    & span{
+        display: block;
+    }
 }
 
 .promos button{
@@ -47,16 +54,12 @@
 }
 
 .clock {
-
-    
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: #17D4FE;
-    font-size: 60px;
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
     font-family: Orbitron;
     letter-spacing: 7px;
-   
-
-
 }
