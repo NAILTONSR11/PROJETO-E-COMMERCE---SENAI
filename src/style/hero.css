@@ -17,3 +17,9 @@
     justify-items: center;
     border-left: 1px solid #948f8f9d;
 }
+.hero-slid{
+    width: 85%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
