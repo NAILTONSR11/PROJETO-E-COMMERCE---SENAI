@@ -1,12 +1,14 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
     /* border: 2px solid; */
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 /* faixa superior do header */
 .header-up{
@@ -15,12 +17,23 @@
     color: white;
     padding: 10px;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 /* fim faixa superior do header */
 
 /* estilizando o header */
 header{
     border-bottom: 2px solid #948f8f9d;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .header{
     display: grid;
