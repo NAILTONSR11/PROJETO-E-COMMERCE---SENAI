@@ -38,11 +38,15 @@ align-items: center;
 .gridCat img {
     width: 50%;
     height: auto;
+    transition: .2s ease-in;
 } 
 
 .gridCat button:hover {
-   background-color: red;
+   background-color: brown;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
    color: white;
    font-weight: bold;
+}
+.gridCat button:hover img{
+    width: 90%;
 }

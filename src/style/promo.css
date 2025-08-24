@@ -43,7 +43,7 @@
     }
 }
 
-.promos button{
+.promos > button{
     display: flex;
     padding: 15px;
     background-color:brown;

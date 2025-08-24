@@ -1,5 +1,5 @@
 export default function carrinho(){
-// ====== VARIÁVEIS ======
+// Minhas variaveis
 const btnAbrirCarrinho = document.querySelector(".butaoCarrinho");
 const btnFecharCarrinho = document.querySelector(".fecharCarrinho");
 const carrinhoDiv = document.querySelector(".meu-carrinho");
@@ -9,7 +9,7 @@ const botoesAdd = document.querySelectorAll(".btnAddItem");
 
 let carrinho = []; // onde os itens serão armazenados
 
-// ====== FUNÇÕES ======
+// minhas funções
 
 // função de abrir o carrinho carrinho 
 btnAbrirCarrinho.addEventListener("click", () => {
@@ -57,7 +57,7 @@ function atualizarCarrinho() {
     const totalDiv = document.createElement("div");
     totalDiv.innerHTML = `
     <h3 class="paitxttotal"><span class="totalTxt">Total </span>: R$ ${total.toFixed(2)}</h3>
-    <button class="fazerCompra"><a href="#">Comprar</a></button>
+    <button class="fazerCompra">Comprar</button>
     `;
     listaCarrinho.appendChild(totalDiv);
   }

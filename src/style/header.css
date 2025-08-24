@@ -4,15 +4,8 @@
     /* border: 2px solid; */
     
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 /* faixa superior do header */
 .header-up{
-    position: relative;
-    z-index: 1;
     display: grid;
     background-color: black;
     color: white;
@@ -23,17 +16,24 @@
 
 /* estilizando o header */
 header{
-    position: relative;
-    z-index: 1;
     border-bottom: 2px solid #948f8f9d;
+    position: fixed;
+    left: -20px;
+    width: 100vw;
+    z-index: 100000;
+    border: none;
+    
 }
 .header{
+    border-radius: 10px;
+    box-shadow: 7px 5px 56px -10px #000000;
+    background-color: #e25151;
+    color: #fff;
     position: relative;
-    z-index: 1;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    /* border: 2px solid; */
     padding: 10px;
+
 }
 
 .header-logo{
@@ -71,4 +71,5 @@ header{
 .header-right input{
     padding: 5px;
 }
+
 /* fim da estilização do header */
