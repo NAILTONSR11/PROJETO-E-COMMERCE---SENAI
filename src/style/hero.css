@@ -23,6 +23,7 @@
 .menu-lateral{
     display:flex;
     flex-direction: column;
+    gap: -7px;
     font-weight: bold;
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
