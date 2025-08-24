@@ -2,6 +2,7 @@
     max-width: 1200px;
     margin: 0 auto;
     /* border: 2px solid; */
+    
 }
 *{
     margin: 0;
@@ -10,6 +11,8 @@
 }
 /* faixa superior do header */
 .header-up{
+    position: relative;
+    z-index: 1;
     display: grid;
     background-color: black;
     color: white;
@@ -20,9 +23,13 @@
 
 /* estilizando o header */
 header{
+    position: relative;
+    z-index: 1;
     border-bottom: 2px solid #948f8f9d;
 }
 .header{
+    position: relative;
+    z-index: 1;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     /* border: 2px solid; */
@@ -30,13 +37,17 @@ header{
 }
 
 .header-logo{
+    position: relative;
+    z-index: 1;
     display: grid;
     justify-content: center;
     align-content: center;
 }
 
 .header-lista{
-align-content: center;
+    position: relative;
+    z-index: 1;
+    align-content: center;
 }
 
 .header-lista nav ul{
@@ -53,6 +64,8 @@ align-content: center;
     justify-items: center;
     align-items: center;
     gap: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 .header-right input{

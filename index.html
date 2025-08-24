@@ -15,35 +15,53 @@
         </div>
         <!-- fim faixa superior do header -->
 
-        <!-- INICIO HEADER -->
-        <header>
-            <div class="container header">
+       <!-- INICIO HEADER -->
+<header>
+    <div class="container header">
 
-                <div class="header-logo">
-                    <img src="src/assets/icons/smarthphone.png" alt="logo" class="logo" width="55">
-                </div>
-    
-                <div class="header-lista">
-                    <nav>
-                        <ul>
-                            <li>INICIO</li>
-                            <li>CONTATO</li>
-                            <li>SOBRE</li>
-                            <li>LOGIN</li>
-                        </ul>
-                    </nav>
-                </div>
-    
-                <div class="header-right">
-                    <input placeholder="O que deseja comprar hoje?" type="text">
-                    <img src="src/assets/icons/contorno-em-forma-de-coracao.png" alt="icone-favorito" class="icon-favorito" width="30" height="30">
-                    <img src="src/assets/icons/vista-lateral-vazia-do-carrinho-de-compras.png" alt="icon-carrinho" class="icon-carrinho" idth="30" height="30">
-                </div>
+        <div class="header-logo">
+            <img src="src/assets/icons/smarthphone.png" alt="logo" class="logo" width="55">
+        </div>
+        <div class="header-lista">
+            <nav>
+                <ul>
+                    <li>INICIO</li>
+                    <li>CONTATO</li>
+                    <li>SOBRE</li>
+                    <li>LOGIN</li>
+                </ul>
+            </nav>
+        </div>
 
+        <div class="header-right">
+            <input placeholder="O que deseja comprar hoje?" type="text">
+            <img src="src/assets/icons/contorno-em-forma-de-coracao.png" alt="icone-favorito" class="icon-favorito" width="30" height="30">
+
+            <!-- carrinho com menu lateral -->
+            <div class="areaCarrinho">
+                <button class="butaoCarrinho">
+                    <img src="src/assets/icons/vista-lateral-vazia-do-carrinho-de-compras.png" 
+                         alt="icon-carrinho" class="icon-carrinho" width="30">
+                </button>
             </div>
-    
-        </header>
-        <!-- FIM HEADER -->
+        </div>
+    </div>
+</header>
+<!-- FIM HEADER -->
+
+<!-- MENU LATERAL (carrinho) -->
+<div class="meu-carrinho">
+    <button class="fecharCarrinho">
+        x
+    </button>
+    <h2 class="testo-carrinho">Meu Carrinho</h2>
+    <div class="item-carrino" id="carrinho">
+
+    </div>
+</div>
+
+<div class="overlay"></div>
+
 
         <!-- INICIO HERO INICIAL -->
         <section class="container hero">
@@ -71,6 +89,7 @@
         </section>
         <!-- FIM HERO INICIAL -->
 
+
         <!-- INÍCIO PRODUTOS EM PROMOÇÃO -->
         <section class="produtos-flash container">
             <div class="promos">
@@ -92,81 +111,81 @@
                 <div class="promo-produtos">
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem" ><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
-                            <span>R$ 100,00<p> antes: R$150,00</p></span>
+                            <h3 class="item-name">pc</h3>
+                            <span class="preco-produto">R$ 200,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
-                            <span>R$ 100,00<p> antes: R$150,00</p></span>
+                            <h3 class="item-name">Celular</h3>
+                            <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
-                            <span>R$ 100,00<p> antes: R$150,00</p></span>
+                            <h3 class="item-name">Celular</h3>
+                            <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
-                            <span>R$ 100,00<p> antes: R$150,00</p></span>
+                            <h3 class="item-name">Celular</h3>
+                            <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
-                            <span>R$ 100,00<p> antes: R$150,00</p></span>
+                            <h3 class="item-name">Celular</h3>
+                            <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
-                            <span>R$ 100,00<p> antes: R$150,00</p></span>
+                            <h3 class="item-name">Celular</h3>
+                            <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
-                            <span>R$ 100,00<p> antes: R$150,00</p></span>
+                            <h3 class="item-name">Celular</h3>
+                            <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
-                            <span>R$ 100,00<p> antes: R$150,00</p></span>
+                            <h3 class="item-name">Celular</h3>
+                            <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
@@ -203,80 +222,80 @@
                 <div class="promo-produtos">
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
+                            <h3 class="item-name">Celular</h3>
                             <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
+                            <h3 class="item-name">Celular</h3>
                             <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
+                            <h3 class="item-name">Celular</h3>
                             <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
+                            <h3 class="item-name">Celular</h3>
                             <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
+                            <h3 class="item-name">Celular</h3>
                             <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho.</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
+                            <h3 class="item-name">Celular</h3>
                             <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
+                            <h3 class="item-name">Celular</h3>
                             <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
                     </div>
                     <div class="promo-produto">
                         <div class="img-produto">
-                            <span>Adiconar ao Carrinho</span>
+                            <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                         </div>
                         <div class="info-produto">
-                            <h3>Celular</h3>
+                            <h3 class="item-name">Celular</h3>
                             <span class="preco-produto">R$ 100,00<p> antes: R$150,00</p></span>
                         </div>
 
@@ -303,7 +322,7 @@
                         </div>
                         
                     </div>
-                    <button> Compre Agora </button>
+                    <button class="btnAddItem"><a href="#" class="ancoraAddItem"><span>Adiconar ao Carrinho.</span></a></button>
                 </div>
                 <div class="figura">
                     <img src="src/assets/images/blackfriday.jpg" alt="imagem de fundo" width="100%">
