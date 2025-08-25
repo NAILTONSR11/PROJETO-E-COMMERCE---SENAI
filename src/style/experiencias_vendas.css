@@ -110,13 +110,13 @@
         align-items: center;
         text-align: center;
     }
- .text button{
-    max-width: 150px;
-    padding: 8px;
-    font-size: 14px;
- } 
-.text button:hover {
-   background-color: darkgreen;
-   color: white;
-}
+    .text button{
+        max-width: 150px;
+        padding: 8px;
+        font-size: 14px;
+    } 
+    .text button:hover {
+        background-color: darkgreen;
+        color: white;
+    }
 }
