@@ -93,6 +93,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 36px;
+}
 @media (max-width: 1159px) {
     .experiencias_venda {
         grid-template-columns: 1fr;
@@ -110,13 +111,14 @@
         align-items: center;
         text-align: center;
     }
- .text button{
-    max-width: 150px;
-    padding: 8px;
-    font-size: 14px;
- } 
-.text button:hover {
-   background-color: darkgreen;
-   color: white;
+    .text button{
+        max-width: 150px;
+        padding: 8px;
+        font-size: 14px;
+    } 
+    .text button:hover {
+        background-color: darkgreen;
+        color: white;
+    }
 }
-}
+
