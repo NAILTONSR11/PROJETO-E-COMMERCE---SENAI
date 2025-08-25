@@ -4,9 +4,9 @@ export default function temporizador(){
 
 // set some useful variables
 const SECOND_IN_MILLISECONDS = 1000;
-const MINUTE_IN_MILLISECONDS = SECOND_IN_MILLISECONDS * 60;
-const HOUR_IN_MILLISECONDS = MINUTE_IN_MILLISECONDS * 60;
-const DAY_IN_MILLISECONDS = HOUR_IN_MILLISECONDS * 24;
+const MINUTE_IN_MILLISECONDS = SECOND_IN_MILLISECONDS * 54;
+const HOUR_IN_MILLISECONDS = MINUTE_IN_MILLISECONDS * 32;
+const DAY_IN_MILLISECONDS = HOUR_IN_MILLISECONDS * 18;
 
 // countdown to a specific UNIX timestamp in the future - a day forward
 const countdownTo = Date.now() + DAY_IN_MILLISECONDS;
