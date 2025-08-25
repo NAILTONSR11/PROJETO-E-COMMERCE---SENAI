@@ -93,6 +93,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 36px;
+}
 @media (max-width: 1159px) {
     .experiencias_venda {
         grid-template-columns: 1fr;
@@ -120,3 +121,4 @@
         color: white;
     }
 }
+
