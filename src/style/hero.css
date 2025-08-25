@@ -2,11 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin: 0 auto;
+    margin-top: 110px;
 }
 
 .hero-container > .hero-left{
     border-right: 1px solid #948f8f9d;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .hero-container > .hero-left nav ul li{
@@ -16,7 +18,31 @@
 .hero-container > .hero-right{
     justify-items: center;
     border-left: 1px solid #948f8f9d;
+    gap: 40px;
 }
+.menu-lateral{
+    display:flex;
+    flex-direction: column;
+    gap: -7px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+}
+
+.menu-lateral li{
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: red;
+    color: black;
+}
+
+.mnlat:hover{
+    background-color: black;
+    color: red;
+}
+
 .hero-slid{
     width: 85%;
     height: 50vh;
