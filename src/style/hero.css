@@ -2,12 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 .hero-container > .hero-left{
     border-right: 1px solid #948f8f9d;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .hero-container > .hero-left nav ul li{
@@ -22,17 +23,16 @@
 .menu-lateral{
     display:flex;
     flex-direction: column;
-    gap: 2px;
+    gap: -7px;
     font-weight: bold;
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
     padding-top: 20px;
-
 }
 
 .menu-lateral li{
     padding: 10px;
-    border-bottom: 1px solid #eee;
+    border: 1px solid black;
     cursor: pointer;
     background-color: rgb(246, 103, 103);
     color: white;
@@ -62,7 +62,6 @@
     transform: translateY(-4px);
     padding-bottom: 0px;
     outline: 0;
-    
 }
 .mnlat:active{
     background-color: rgb(252, 27, 27);
