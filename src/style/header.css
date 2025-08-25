@@ -28,28 +28,39 @@
 header{
     border-bottom: 2px solid #948f8f9d;
     position: fixed;
+    left: -20px;
+    width: 100vw;
+    border: none;
     top: 40px;
-    left: 0;
-    width: 100%;
     background: #fff;
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
 }
 .header{
+    border-radius: 10px;
+    box-shadow: 7px 5px 56px -10px #000000;
+    background-color: #e25151;
+    color: #fff;
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    /* border: 2px solid; */
     padding: 10px;
+
 }
 
 .header-logo{
+    position: relative;
+    z-index: 1;
     display: grid;
     justify-content: center;
     align-content: center;
 }
 
 .header-lista{
-align-content: center;
+    position: relative;
+    z-index: 1;
+    align-content: center;
 }
 
 .header-lista nav ul{
@@ -66,9 +77,12 @@ align-content: center;
     justify-items: center;
     align-items: center;
     gap: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 .header-right input{
     padding: 5px;
 }
+
 /* fim da estilização do header */
