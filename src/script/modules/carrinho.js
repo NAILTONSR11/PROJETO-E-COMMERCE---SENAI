@@ -6,6 +6,7 @@ const carrinhoDiv = document.querySelector(".meu-carrinho");
 const overlay = document.querySelector(".overlay");
 const listaCarrinho = document.querySelector("#carrinho");
 const botoesAdd = document.querySelectorAll(".btnAddItem");
+const qtdCarrinho = document.querySelector(".produtos_quant");
 
 let carrinho = []; // onde os itens serão armazenados
 
@@ -49,7 +50,7 @@ function atualizarCarrinho() {
         <button class="remover" data-index="${index}">x</button>
       </div>
     `;
-
+    qtdCarrinho.innerText = `${item.quantidade}`;
     listaCarrinho.appendChild(div);
   });
   //fechar compra
@@ -110,5 +111,9 @@ listaCarrinho.addEventListener("click", (e) => {
     carrinho.splice(index, 1);
     atualizarCarrinho();
   }
+  
+  // 🟢 sempre que clicar em algum botão, atualiza o contador de quantidade
+  let totalQtd = carrinho.reduce((acc, item) => acc + item.quantidade, 0);
+  qtdCarrinho.innerText = totalQtd;
 });
 }

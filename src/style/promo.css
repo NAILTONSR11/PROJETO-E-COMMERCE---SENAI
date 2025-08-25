@@ -17,7 +17,12 @@
     scrollbar-width: none;
 }
 
-.img-produto{
+.promo-flex{
+display: flex;
+    justify-content: space-between;
+}
+
+.FOTO{
     background-image: url('/src/assets/images/controll.png');
     background-size: cover;
     width: 270px;
@@ -28,6 +33,93 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.FOTO1 {
+    background-image: url('/src/assets/images/smartphone-153650_1280.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 250px;
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FOTO2 {
+    background-image: url('/src/assets/images/image (11).webp');
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FOTO3 {
+    background-image: url('/src/assets/images/image (8).webp');
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FOTO4 {
+    background-image: url('/src/assets/images/image (5).webp');
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FOTO5 {
+    background-image: url('/src/assets/images/computer-mouse-152249_1280.png');
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FOTO6 {
+    background-image: url('/src/assets/images/chair-2421605_1280.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 250px;
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FOTO7 {
+    background-image: url('/src/assets/images/51gRv8z+K6L._AC_SY879_.jpg');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 250px;
+    border: 2px solid rgb(112, 107, 107);
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 .img-produto span{
     padding: 10px;

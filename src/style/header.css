@@ -23,7 +23,46 @@
     width: 100%;
 }
 /* fim faixa superior do header */
+.header-logo h2 {
+  font-family: 'Poppins', sans-serif; /* fonte moderna */
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px; /* espaço entre letras para elegância */
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #fff, #000000); /* gradiente azul moderno */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* aplica o gradiente no texto */
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease, letter-spacing 0.3s ease;
+}
 
+/* efeito ao passar o mouse */
+.header-logo h2:hover {
+  transform: scale(1.08);
+  letter-spacing: 5px;
+}
+
+/* linha de destaque abaixo do texto */
+.header-logo h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #fff, #000000);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.header-logo h2:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
 /* estilizando o header */
 header{
     border-bottom: 2px solid #948f8f9d;
@@ -72,6 +111,11 @@ header{
     list-style: none;
 }
 
+.header-lista nav ul li:hover{
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
 .header-right{
     display: flex;
     justify-items: center;
@@ -85,4 +129,11 @@ header{
     padding: 5px;
 }
 
+.produtos_quant{
+   position: absolute;
+   top: 13px;
+   right: 47px;
+   font-weight: bold;
+   color: #fff;
+}
 /* fim da estilização do header */
